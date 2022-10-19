@@ -6,6 +6,7 @@ services:
     container_name: infomate_app
     environment:
       - VIRTUAL_HOST=news.popa.moscow
+      - VIRTUAL_PORT=8816
       - LETSENCRYPT_HOST=news.popa.moscow
       - LETSENCRYPT_EMAIL=news.popa.moscow@raw.email
       - MODE=production
