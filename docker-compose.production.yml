@@ -21,7 +21,7 @@ services:
       - .env
     restart: always
     ports:
-      - "8816:8816"
+      - "8816"
 
   cron:
     <<: *app
