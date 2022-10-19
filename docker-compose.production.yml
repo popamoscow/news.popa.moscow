@@ -28,7 +28,6 @@ services:
     container_name: infomate_cron
     depends_on:
       - app
-    ports: []
 
   postgres:
     image: postgres:12
@@ -45,7 +44,6 @@ services:
     <<: *app
     container_name: infomate_init_feeds
     restart: "no"
-    ports: []
     depends_on:
       - app
     command: make feed_init feed_refresh
