@@ -1,4 +1,4 @@
-# Infomate.club
+# News
 
 [![Build Status](https://travis-ci.org/vas3k/infomate.club.svg?branch=master)](https://travis-ci.org/vas3k/infomate.club)
 
