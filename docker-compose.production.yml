@@ -19,8 +19,6 @@ services:
     env_file:
       - .env
     restart: always
-    ports:
-      - "80:80"
 
   cron:
     <<: *app
