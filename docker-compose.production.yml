@@ -12,7 +12,7 @@ services:
       - MODE=production
       - PYTHONUNBUFFERED=1
       - DEBUG=false
-      - APP_HOST=https://infomate.club
+      - APP_HOST=https://news.popa.moscow
       - POSTGRES_DB=infomate
       - POSTGRES_USER=popamoscow
       - POSTGRES_PASSWORD=popamoscow
