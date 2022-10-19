@@ -50,3 +50,5 @@ services:
       - app
     command: make feed_init feed_refresh
 
+networks:
+  proxy:
