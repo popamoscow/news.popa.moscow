@@ -6,7 +6,7 @@ boards:
     curator:
       name: Новости
       title: События в мире
-      avatar: https://i.vas3k.ru/63cd2ebddba4422aa684b2bd754c636eb061ef0555f542042c31850525d2f5bb.png
+      avatar: https://cdn4.telegram-cdn.org/file/uRVCARFbtMFxGNLIXKiEgeRL8sZn2snZI7nQl-vi4weGvwcs_mZ6XiuetLDUabunrBt-s1DrOUCG1aUkxC5mvuIN2pNMsPkoVJX36rfEm_DTg3keQvNMs8navrergPWf5BItClGREOJT8igWspWNMLJiJNvienTlv46Kp6N4vjDwTTEvhkhJabRvlZPRdtXXoF9C_3d8KZERs0nAnkVRFDZXoOqUnk09MxPVn7eYvI4QODII8HP6mMU3rTqHvuPk1499b6eGp_r6UfAi5MslbLKQRVnUjf_BfvhfJRH4PAK9Q4JP1e1YpprmoRfslRKUP7Gic5ZsNkMPDTtzrO3m9A.jpg
       bio: Наша субъективная подборка основных новостных изданий, чтобы следить за событиями в России и в мире
     blocks:
       - name: Россия
