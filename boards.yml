@@ -1,22 +1,22 @@
 boards:
-  - name: Admitad
-    slug: admitad
+- name: Admitad
+    slug: Admitad
     is_visible: true
     is_private: false
     curator:
-      name: admitad
-      title: Всё про наше болотце
-      avatar: https://cdn.sites.admitad.com/www.admitad.com/2022/06/logo.svg
+      name: Admitad
+      title: блог компании
+      avatar: https://github.com/popamoscow/news.popa.moscow/blob/master/static/images/01.png?raw=true
       bio: одмитад
     blocks:
-      - name: Рупор перестройки
+      - name: Блог компании Admitad Ru
         slug: official
         feeds:
-          - name: Admitad Blog
+          - name: admitad blog
             url: https://blog.admitad.com/ru/
             rss: https://blog.admitad.com/ru/feed/
   - name: startup'n'tech
-    slug: news
+    slug: startups
     is_visible: true
     is_private: false
     curator:
@@ -47,6 +47,32 @@ boards:
             is_parsable: false
           # - name: РБК
          
+  - name: HR
+    slug: hr 
+    is_visible: true
+    is_private: false
+    curator:
+      name: HR
+      title: поиск талантов
+      avatar: https://github.com/popamoscow/news.popa.moscow/blob/master/static/images/03.png?raw=true
+      bio: поиск талантов
+    blocks:
+      - name: Каналы Агентств
+        slug: official
+        feeds:
+          - name: Лаборатория карьеры
+            url: https://t.me/careerlaboratory
+            rss: https://infomate.club/parsing/telegram/careerlaboratory/
+          - name: Job for Chiefs
+            url: https://t.me/forchiefs
+            rss: https://infomate.club/parsing/telegram/forchiefs/
+          - name: Анна Знаменская
+            url: https://t.me/annaznamenskaya
+            rss: https://infomate.club/parsing/telegram/annaznamenskaya/
+          - name: VC.ru JOB
+            url: https://vc.ru/job
+
+
 
   - name: Технологии
     slug: tech
@@ -55,7 +81,7 @@ boards:
     curator:
       name: Технологии
       title: Главные новости
-      avatar: https://i.vas3k.ru/229b722cc79faca1f148c66b1e7240488e7405704f94b8d7f0fadddcf66212f0.jpg
+      avatar: https://github.com/popamoscow/news.popa.moscow/blob/master/static/images/02.png?raw=true
       bio: Подборка мейнстримовых новостей о технологиях на русском и английском языках
     blocks:
       - name: На русском
@@ -145,133 +171,3 @@ boards:
             url: https://t.me/techsparks
             rss: https://infomate.club/parsing/telegram/techsparks
             icon: https://i.vas3k.ru/b5a4fb2b5d3d0279612c639a325958e89bfaa218a87a6016f74936d347d23ced.png
-
-  - name: Игры, железки и геймдев
-    slug: games
-    is_visible: true
-    is_private: false
-    curator:
-      name: Игры, железки и геймдев
-      avatar: https://i.vas3k.ru/d91addda792605da2764afc6c866257e05b8218d11b91534eaf0e87c03acebe5.jpg
-      bio: Бета-версия подборки новостей об играх и всём, что с ними связано
-    blocks:
-      - name: На русском
-        slug: ru
-        feeds:
-          - name: DTF
-            url: https://dtf.ru/
-            icon: https://i.vas3k.ru/75a05e5c534be82df78b704bf6d8c18308772736074ae3a6b2fdac4a6cd03343.png
-            mix:
-              - https://dtf.ru/rss/all
-              - https://www.youtube.com/feeds/videos.xml?channel_id=UCBDLWj5X5D9bvBa3JIMMTIQ
-          - name: Stopgame
-            url: https://stopgame.ru/
-            icon: https://i.vas3k.ru/110c51acbc7b938803332ce502eaa92284302093825b86f632002720397cdd66.png
-            mix:
-              - https://rss.stopgame.ru/rss_news.xml
-              - https://rss.stopgame.ru/articles.xml
-              - https://www.youtube.com/feeds/videos.xml?channel_id=UCq7JZ8ATgQWeu6sDM1czjhg
-          - name: Игры @ Mail.ru
-            url: https://games.mail.ru/pc/news/
-            rss: https://games.mail.ru/pc/rss/news/
-            icon: https://i.vas3k.ru/4c2ed25ae65ca8d14aad458021b2c2d46de909fa668af4f4b3a78ab1d4d15a74.png
-          - name: Игромания
-            url: https://www.igromania.ru/news/
-            icon: https://i.vas3k.ru/da87856ddac8e5000798651b23669134fc47755adb23ac4cb9cf3862e5f0736e.jpg
-            mix:
-              - https://www.igromania.ru/rss/news-game.rss
-              - https://www.youtube.com/feeds/videos.xml?channel_id=UC_Q1vhf7wcR_zGlc5ahAg0A
-          - name: IXBT.games
-            url: https://www.gametech.ru/
-            rss: https://infomate.club/parsing/telegram/ixbtgames
-            icon: https://i.vas3k.ru/7e54723ab414656c96a7b736f843f1bc961237c50ca30e8209096c3a912db7a1.png
-      - name: На английском
-        slug: en
-        feeds:
-          - name: IGN
-            url: https://ign.com/
-            rss: https://feeds.feedburner.com/ign/all
-            icon: https://i.vas3k.ru/cd6895f1b150d96ffa85bc8b160a79b2b294b9712d7f887f54d5f167a61bffd6.png
-            is_parsable: false
-          - name: Rock Paper Shotgun
-            url: https://www.rockpapershotgun.com/
-            rss: https://www.rockpapershotgun.com/feed/
-            icon: https://i.vas3k.ru/a3306dfa0ba6c7169454702ca22535255ec3988ea5500e21558258c789d45a3a.jpg
-          - name: Polygon
-            url: https://www.polygon.com/
-            rss: https://www.polygon.com/rss/front-page/index.xml
-            icon: https://i.vas3k.ru/e710868062d590ef2906648582eb139d21fb4edba1b4b9a40a2c7a16744c00b1.png
-          - name: Eurogamer
-            url: https://www.eurogamer.net/
-            rss: https://www.eurogamer.net/?format=rss
-          - name: "Reddit: /r/gaming + /r/games"
-            url: https://www.reddit.com/r/gaming/
-            icon: https://i.vas3k.ru/3062b953fa39b4f3bc26a5f3ba65effb0fac935ffa5ee50c3b734107be457c48.png
-            mix:
-              - https://www.reddit.com/r/gaming.rss
-              - https://www.reddit.com/r/games.rss
-      - name: Индустрия
-        slug: industry
-        feeds:
-          - name: App2Top
-            url: https://app2top.ru/
-            rss: https://app2top.ru/rss
-            icon: https://i.vas3k.ru/c2756d30e2381ca7e69013b917d8b048dba7f12b2d38c268d2717d17a1183aa3.png
-          - name: GamesIndustry.biz
-            url: https://www.gamesindustry.biz/
-            rss: https://www.gamesindustry.biz/rss/gamesindustry_news_feed.rss
-            icon: https://i.vas3k.ru/61b867daaa85db8d74061ca2d730f6a32b0af2387db77371946ef807b7f8cd84.png
-          - name: Gamasutra
-            url: https://www.gamasutra.com/
-            rss: https://feeds.feedburner.com/GamasutraNews
-            icon: https://i.vas3k.ru/e0464b0fe7cc7e5abc98570a88340a0082da5a96598febfa6bf66a1bc7b37987.png
-          - name: Kotaku
-            url: https://kotaku.com/
-            rss: https://kotaku.com/rss
-          - name: "MCV/Develop"
-            url: https://www.mcvuk.com/
-            rss: https://www.mcvuk.com/feed/
-            icon: https://i.vas3k.ru/2c3f4640e0109754dc7d250b63dc7e828268a246efac1cfa3780a650e7ec2119.jpg
-          - name: "Шрайер"
-            url: https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier
-            rss: https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss
-            icon: https://i.vas3k.ru/35c6ae6df0fe47166ed5c656bde6faa974ae1beca949c89443f0aed0b86e0806.png
-      - name: Железо
-        slug: hardware
-        feeds:
-          - name: Wccftech
-            url: https://wccftech.com/
-            rss: https://wccftech.com/feed/
-          - name: Overclockers
-            url: https://www.overclockers.com/
-            rss: https://www.overclockers.com/feed/
-          - name: "Reddit: /r/hardware"
-            url: https://www.reddit.com/r/hardware/
-            rss: https://www.reddit.com/r/hardware.rss
-            icon: https://i.vas3k.ru/3062b953fa39b4f3bc26a5f3ba65effb0fac935ffa5ee50c3b734107be457c48.png
-      - name: Платформы
-        slug: platforms
-        feeds:
-          - name: Xbox Wire
-            url: https://news.xbox.com/en-us/
-            rss: https://news.xbox.com/en-us/feed/
-          - name: PlayStation Blog
-            url: https://blog.playstation.com/
-            rss: https://blog.playstation.com/feed/
-          - name: PC Gamer
-            url: https://www.pcgamer.com/
-            rss: https://www.pcgamer.com/rss/
-          - name: Nintendo Life
-            url: https://www.nintendolife.com/
-            rss: https://www.nintendolife.com/feeds/latest
-            icon: https://i.vas3k.ru/6b873b5b6eea734311d63ab9f20643b724767a08e69ffeb48835043d5d3ed445.png
-          - name: Pocketgamer
-            url: https://www.pocketgamer.com/
-            rss: https://www.pocketgamer.com/rss/
-            icon: https://i.vas3k.ru/4206863a904a4ae9966eb5abbba5f1f179607a60a31b3f81c20a950a93cb2e9d.jpg
-          - name: UploadVR + Road to VR
-            url: https://uploadvr.com/
-            icon: https://i.vas3k.ru/85fbe5e90e244df525a3265beaec913f30f2bf6799d34c82d2224acb005dce9e.png
-            mix:
-              - https://uploadvr.com/feed/
-              - https://www.roadtovr.com/feed/
