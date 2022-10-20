@@ -1,4 +1,20 @@
 boards:
+  - name: Admitad
+    slug: admitad
+    is_visible: true
+    is_private: false
+    curator:
+      name: admitad
+      title: Всё про наше болотце
+      avatar: https://cdn.sites.admitad.com/www.admitad.com/2022/06/logo.svg
+      bio: одмитад
+    blocks:
+      - name: Рупор перестройки
+        slug: official
+        feeds:
+          - name: Admitad Blog
+            url: https://blog.admitad.com/ru/
+            rss: https://blog.admitad.com/ru/feed/
   - name: startup'n'tech
     slug: news
     is_visible: true
