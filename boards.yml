@@ -15,14 +15,14 @@ boards:
           - name: admitad blog
             url: https://blog.admitad.com/ru/
             rss: https://blog.admitad.com/ru/feed/
-  - name: startup'n'tech
+  - name: Startup'n'Tech
     slug: startups
     is_visible: true
     is_private: false
     curator:
       name: startup'n'tech
       title: Стартап-движ
-      avatar: https://cdn4.telegram-cdn.org/file/uRVCARFbtMFxGNLIXKiEgeRL8sZn2snZI7nQl-vi4weGvwcs_mZ6XiuetLDUabunrBt-s1DrOUCG1aUkxC5mvuIN2pNMsPkoVJX36rfEm_DTg3keQvNMs8navrergPWf5BItClGREOJT8igWspWNMLJiJNvienTlv46Kp6N4vjDwTTEvhkhJabRvlZPRdtXXoF9C_3d8KZERs0nAnkVRFDZXoOqUnk09MxPVn7eYvI4QODII8HP6mMU3rTqHvuPk1499b6eGp_r6UfAi5MslbLKQRVnUjf_BfvhfJRH4PAK9Q4JP1e1YpprmoRfslRKUP7Gic5ZsNkMPDTtzrO3m9A.jpg
+      avatar: https://github.com/popamoscow/news.popa.moscow/blob/master/static/images/06.png?raw=true
       bio: Наша субъективная подборка основных новостных изданий, чтобы следить за событиями в России и в мире
     blocks:
       - name: Сообщества
@@ -31,19 +31,19 @@ boards:
           - name: StartXMoscow
             url: https://t.me/StartXMoscow
             rss: https://infomate.club/parsing/telegram/startxmoscow/
-            icon: https://cdn4.telegram-cdn.org/file/uRVCARFbtMFxGNLIXKiEgeRL8sZn2snZI7nQl-vi4weGvwcs_mZ6XiuetLDUabunrBt-s1DrOUCG1aUkxC5mvuIN2pNMsPkoVJX36rfEm_DTg3keQvNMs8navrergPWf5BItClGREOJT8igWspWNMLJiJNvienTlv46Kp6N4vjDwTTEvhkhJabRvlZPRdtXXoF9C_3d8KZERs0nAnkVRFDZXoOqUnk09MxPVn7eYvI4QODII8HP6mMU3rTqHvuPk1499b6eGp_r6UfAi5MslbLKQRVnUjf_BfvhfJRH4PAK9Q4JP1e1YpprmoRfslRKUP7Gic5ZsNkMPDTtzrO3m9A.jpg
+            icon: https://github.com/popamoscow/news.popa.moscow/blob/master/static/images/06.x_start.jpg?raw=true
           - name: Инновации Москвы
             url: https://t.me/msk_innoagency
             rss: https://infomate.club/parsing/telegram/msk_innoagency/
-            icon: https://cdn4.telegram-cdn.org/file/Wm_ui92nvJ0hd-xB1ssHYQxEtkgqkmNb0dWlAx_S19OgJWnZOzqH39abr03kc0maQAuGs6kfRjsPvT_rMG2RSx45JJFBI2vBKxKx8zLhu20NPSN7Nz2yHt5-h06JHDChoNV1LBrKlXpzZtuus_WwTgvrmcOFGbwL_Ra1GeEhG_-1bzC4G28x4e8ipZJt10-LXoG7o1ZYLnGIh5IDIjpaG19rj9xL5hUt55PzFh0Za2NHDgtILEEwH35Z7XezUg7_la1rGoLmG-M1J2gpIY9L3rsaCuWowXztAmL0XrnZP22Camwj1ISn30D3ESfxcjUkscZ4pjIqq1_i3gp58HC4_w.jpg
+            icon: https://github.com/popamoscow/news.popa.moscow/blob/master/static/images/06.innovmosc.jpg?raw=true
           - name: Стартаперная "Старт Хаб"
             url: https://t.me/CDP_Moscow
             rss: https://infomate.club/parsing/telegram/CDP_Moscow/
-            icon: https://cdn4.telegram-cdn.org/file/lJwYXxlnEp54NPJvdi8J4-iXPIBkgBwPbawMzJxN2X6pQQ6LJK_iUs_Bl1Fuh3yFlnVZBz546qmpYghQxeZVDRSscwNlAV0VcyZH-GEg34mfS2yiCgOWHPwtYzI9B6hXjrNt5s11A2gXw5a-GDyVuo3NIiLGTirhe7X0H-Wk9vT_Yfce8H8PnGjpzFB4UMIk6y-vbt6Br7QIl1vkVNBxStqkFzArrErgG8INPY5RtvM-Jn22xbTgreNwWxwxJmx-l0x4y8Z9NjaFos-swdqvW8WL0pqUl9KAaMqmcKH6omNBLceX0odMjNBVt81pf4er7-a56KSk3UR4g4t9XAdgRA.jpg
+            icon: https://github.com/popamoscow/news.popa.moscow/blob/master/static/images/06.starthub.jpg?raw=true
           - name: Технопарк "Сколково"
             url: https://t.me/technoparksk_news
             rss: https://infomate.club/parsing/telegram/technoparksk_news/
-            icon: https://cdn4.telegram-cdn.org/file/EmPWX1ApLalZ6KQpgurPEusmkX-CwljPaDkyI-LlUGCKmx0UDMnLtA61WPh4vWf77LxpHZ4hN9fQRxGkJBuQmPyqPMTctGWaLGJLgJEMctB2FzxX5YEQ2Y3tSq8V6ZSDiAgz_CXiPa1FcaOdPmoAhVXR6Rxuem4G2C5sTfGmX_cDaRFSl9Bl7uHBdktZ825N6UXXJaaLokgagSSc705kXyCNQ7oRxggbsmDH3UH2XYq9c3V_OwnOyRlidWwdytFEA_GQ5kiY1gOIbsFVFf5Qw94QpXWvsgzErFktgFEdgXr7s-tvwDsoN4uUCeu_Qi0adIQdXPXiufv__bBiVjQ5Kg.jpg
+            icon: https://github.com/popamoscow/news.popa.moscow/blob/master/static/images/06.technopark.jpg?raw=true
           # - name: РБК    
   - name: HR
     slug: hr 
